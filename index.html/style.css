@@ -49,3 +49,86 @@ body {
   text-align: center;
   margin: 20px 0 0;
 }
+
+/* Job metadata */
+.jobtitle {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.organization {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.date {
+  font-size: 1em;
+  font-weight: 700;
+  margin: 2px 0 0;
+}
+
+/* Paragraph spacing */
+.description {
+  margin: 10px 0;
+}
+
+/* Contact menu */
+.menu {
+  margin: 10px 0 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  padding: 0 20px;
+}
+
+#degrees,
+#do {
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+#headshot-container {
+  text-align: center;
+}
+
+#headshot {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #33485e;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+/* Link states */
+a:link {
+  font-weight: 600;
+  color: #0bc5f4;
+}
+
+a:hover {
+  color: #33485e;
+}
+
+a:visited {
+  color: #6e38c7;
+}
+
+a {
+  text-decoration: none;
+}
