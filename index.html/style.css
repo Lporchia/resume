@@ -1,0 +1,29 @@
+/* Styles for Qwan Porchia's Resume */
+body {
+  font-family: Arial, sans-serif;
+  color: #444;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* Resume container */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/* Name styling */
+#name {
+  color: #33485e;
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
